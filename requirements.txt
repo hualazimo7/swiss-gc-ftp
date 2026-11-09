@@ -1,0 +1,2 @@
+# SwissFTP 运行 / 打包依赖（GUI 与网关只用标准库）
+pyinstaller>=6.0
