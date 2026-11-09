@@ -1,5 +1,8 @@
 # SwissFTP（swiss-gc-ftp）
 
+> ⚠️ **禁止商业使用 / NON-COMMERCIAL USE ONLY**：本仓库的原创内容仅限非商业用途，禁止出售、预装到售卖的硬件/存储卡、付费代刷、广告变现等。详见 [LICENSE](LICENSE) 与 [NOTICE.md](NOTICE.md)。
+> 本仓库不含上游 GPL 源码，整个工具（含 EXE）适用该条款。
+
 不用拔卡，把 PC 上的 ISO / DOL / 封面 / 补丁直接写进 GameCube 的 SD 卡。当前版本 **v1.0**。
 
 **不需要改固件、不需要刷 `IPL.dol`**，用的是 Swiss 现行版本里已有的 httpd(80) FatFs 端点。配合 [swiss-gc-CN](https://github.com/hualazimo7/swiss-gc-CN) 汉化固件使用。
@@ -113,6 +116,10 @@ GUI、协议层与网关只用 Python 标准库；`requirements.txt` 里的 PyIn
 
 ## 许可与致谢
 
-- 上游 Swiss：[emukidid/swiss-gc](https://github.com/emukidid/swiss-gc)，GPL-2.0，详见 [`LICENSE`](LICENSE)
-- 本工具以 GPL-2.0 发布；打包使用 [PyInstaller](https://pyinstaller.org/)
+> ⚠️ 本仓库**全部原创内容禁止商业使用**。完整条款见 [`LICENSE`](LICENSE)，
+> 范围界定与商用示例见 [`NOTICE.md`](NOTICE.md)。
+
+- **本工具**（`src/`、`dist/SwissFTP.exe`、`docs/`）：《非商业使用许可 v1.0》，**禁止商用**
+- **上游 Swiss**：[emukidid/swiss-gc](https://github.com/emukidid/swiss-gc)，GPL-2.0 全文见 [`LICENSE-GPL-2.0.txt`](LICENSE-GPL-2.0.txt)；本工具仅通过其 httpd 端点通信，未复制其源码
+- 打包使用 [PyInstaller](https://pyinstaller.org/)
 - 配套：[swiss-gc-CN](https://github.com/hualazimo7/swiss-gc-CN)（汉化固件）、[swiss-gc-Imager](https://github.com/hualazimo7/swiss-gc-Imager)（背景图工具）
