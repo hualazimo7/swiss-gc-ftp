@@ -1,5 +1,13 @@
 # 更新记录
 
+## 发布规则（2026-11-10 起）
+
+- 本库与 `swiss-gc-CN` 一样采用**不可变发布**：已发布的 tag / 附件 / Release 说明一律冻结，
+  每次改动发新的 `vX.Y`，旧版本永久保留；禁止 `gh release upload --clobber`、
+  `delete-asset`、改写已发布说明、强推 tag
+- 完整规则见 [swiss-gc-CN 的发布规则](https://github.com/hualazimo7/swiss-gc-CN/blob/main/docs/RELEASE_POLICY.md)
+- 现有 Release：`v1.0`（当前版本）；后续版本各自独立发布，旧版不覆盖
+
 ## 2026-11-09 — 增加禁止商用许可（非商业使用许可 v1.0）
 
 - 仓库主许可改为《非商业使用许可 v1.0》：本工具全部源码、EXE、图标与文档仅限非商业用途，禁止出售、预装到售卖的硬件/存储卡、付费代刷、广告变现等商业使用
